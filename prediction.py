@@ -19,7 +19,7 @@ st.set_page_config(
 # LOAD FILES
 # ==================================
 
-model = load_model("churn_model.h5")
+model = load_model("churn_model.keras")
 scaler = joblib.load("scaler.pkl")
 encoders = joblib.load("encoders.pkl")
 
